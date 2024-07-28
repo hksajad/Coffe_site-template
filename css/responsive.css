@@ -1,0 +1,71 @@
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+  .toggle_menu {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: 10rem;
+    background-color: #060405e5;
+    margin: 0 15px;
+    text-align: center;
+    padding: 10px;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+  }
+  .menu.show_menu {
+    height: 400px;
+    visibility: visible;
+  }
+  .img_content .title_img h1{
+    display: none;
+  }
+  .img_content{
+    background-position: center;
+    background-size: cover;
+  }
+  .content_story{
+    flex-direction: column;
+  }
+  .Advice .box_Advice .item_Advice{
+    width: 100%;
+  }
+  .menu_coffe .box_menu{
+    flex-direction: column;
+  }
+  .menu_coffe .box_menu .item_menu{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .subscribe .input input{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+  .services .box_services .item_services{
+    width: 100%;
+  }
+  .menu_coffe .box_menu .img img{
+    width: 270px;
+  }
+  .subscribe .title h1{
+    font-size: 30px;
+  }
+  
+}
+@media screen and (max-width: 576px) {
+  .content_Home .title h1 {
+    font-size: 50px;
+  }
+  .content_story .caption_story p{
+    width: 17rem;
+  }
+}
